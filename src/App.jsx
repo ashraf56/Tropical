@@ -3,6 +3,7 @@ import reactLogo from './assets/react.svg'
 import Navbar from './Component/Navbar/Navbar'
 import Hero from './Component/Hero/Hero'
 import Advance from './Component/Advance/Advance'
+import Slider from './Component/Slider/Slider'
 
 
 function App() {
@@ -12,6 +13,7 @@ function App() {
    <Navbar></Navbar>
    <Hero></Hero>
    <Advance></Advance>
+   <Slider></Slider>
     </div>
   )
 }
