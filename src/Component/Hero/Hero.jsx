@@ -9,7 +9,7 @@ import greenshape from '../../assets/greenshape.svg'
 const Hero = () => {
     return (
         <div className=''>
-            <div className='block lg:flex container mx-auto items-center place-content-center '>
+            <div className='block lg:flex container mx-auto items-center  '>
  <div  className='w-full lg:w-3/6 '>
 <div className='max-w-full lg:max-w-xl mx-auto relative'>
 <img src={imgs} className='mt-[141px]' />
