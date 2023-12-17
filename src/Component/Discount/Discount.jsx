@@ -6,9 +6,9 @@ import sh3 from '../../assets/shape4.svg'
 
 const Discount = () => {
     return (
-        <div className='container mx-auto mt-8'>
-            <div className='block lg:flex items-center  text-center md:text-justify'>
-<div className='w-full lg:w-3/6'>
+        <div className=' container mx-auto mt-8'>
+            <div className='block container ms-5 sm:ms-0 mx-auto lg:flex items-center  text-center md:text-justify'>
+<div className='w-full lg:w-3/6 '>
 <div className='max-w-full lg:max-w-xl mx-auto relative  '>
 <img src={imgs} className='mt-[141px] hidden sm:block' />
 <p className='text-[#1F2027] font-[Inter] text-[20px] font-[600] pt-8'>Get 20% off for student</p>
@@ -39,7 +39,12 @@ Get ready for some fun in the sun!
 
 </div>
 <div className='w-full lg:w-3/6'>
-<img src={heroimg} className='max-w-sm sm:max-w-md mx-auto object-contain '/>
+
+  <div className="w-full mx-auto">
+   <img src={heroimg} className='w-full mx-auto  max-w-sm sm:max-w-md   object-contain '/>
+
+  </div>
+
 </div>
             </div>
         </div>

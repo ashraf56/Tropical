@@ -5,17 +5,19 @@ import Hero from './Component/Hero/Hero'
 import Advance from './Component/Advance/Advance'
 import Slider from './Component/Slider/Slider'
 import Discount from './Component/Discount/Discount'
+import Booknow from './Component/Booknow/Booknow'
 
 
 function App() {
 
   return (
-    <div >
+    <div  >
    <Navbar></Navbar>
    <Hero></Hero>
    <Advance></Advance>
    <Slider></Slider>
    <Discount></Discount>
+   <Booknow></Booknow>
     </div>
   )
 }
