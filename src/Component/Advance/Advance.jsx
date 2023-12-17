@@ -4,10 +4,8 @@ import big from '../../assets/bogcircle.svg'
 import imgs from '../../assets/shape1.svg'
 const Advance = () => {
     return (
-        <div  className='mt-[30%] relative container mx-auto'>
-            <div>
-<img src={big} className='absolute right-24 top-[-30%]  hidden lg:block'/>
-            </div>
+        <div  className='mt-64  container mx-auto'>
+            
             <div className='block md:flex items-center'>
 <div className='w-full lg:w-3/6  xl:max-w-full '>
     <div className='py-10'>
@@ -53,8 +51,11 @@ const Advance = () => {
 
 </div>
 <div className='w-full lg:w-3/6 mx-auto relative'>
+<div>
+<img src={big} className='absolute right-32 top-[-50%]  hidden lg:block'/>
+            </div>
     <div>
-        <img src={imgs} className=' absolute left-[-10%] top-[-20%] hidden lg:block' />
+        <img src={imgs} className=' absolute left-[-10%] top-[-20%]  hidden lg:block' />
     </div>
 <div className='ps-8 max-w-full'>
     <h1 className='text-[30px] font-[400] pb-3 text-[#000000]'><span className='text-[40px] font-bold'>Tropical Adventure</span><br />

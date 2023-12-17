@@ -43,15 +43,15 @@ const Slider = () => {
     return (
         <div className=' mt-16 container mx-auto overflow-hidden'>
             <h1 className='text-[40px] pb-10 ps-10 md:ps-[119px]'>Our Destinations</h1>
-      <div className='w-[1500px] flex gap-5 md:ms-[119px]'>
+      <div className='w-[1400px] flex gap-5 ms-10 md:ms-[80px]'>
         {
  carddata.map(c => (
     <div className="card w-[360px] h-[496px]  bg-base-100 shadow-xl">
-  <figure><img src={c.image} /></figure>
+  <figure><img src={c.image} className='' /></figure>
   <div className="card-body">
-    <h2 className="card-title">{c.Name}</h2>
+    <h2 className="card-title font-[900] ">{c.Name}</h2>
     
-    <div className="flex  items-center">
+    <div className="flex justify-between items-center">
         <p className='text-[14px] text-black'>{c.adress}</p>
       <button className=" rounded-full p-3">
     <img src={c.adress  && ic}  />
