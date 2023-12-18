@@ -7,15 +7,15 @@ import sh3 from '../../assets/shape4.svg'
 const Discount = () => {
     return (
         <div className=' container mx-auto mt-8'>
-            <div className='block container ms-5 sm:ms-0 mx-auto lg:flex items-center  text-center md:text-start'>
+            <div className='block container  mx-auto lg:flex items-center  text-center md:text-start'>
                 <div className='w-full lg:w-3/6 '>
-                    <div className='w-full max-w-full lg:max-w-xl mx-auto relative  ps-10 '>
+                    <div className='w-full max-w-full lg:max-w-xl  relative ml-0 lg:ml-20'>
                         <img src={imgs} className='mt-[141px] hidden sm:block' alt='shape' />
-                        <p className='text-[#1F2027] font-[Inter] text-[20px] font-[600] pt-8'>Get 20% off for student</p>
+                        <p className='text-[#1F2027] sm:text-[20px] font-[600] pt-8'>Get 20% off for student</p>
                         <img src={sh2} className='absolute right-[0%] lg:top-[15%] xl:top-[25%] hidden md:block' alt='shape' />
                         <img src={sh3} className='absolute  bottom-[-7%] right-[10%]  hidden md:block' alt='shape' />
-                        <h1 className=' text-3xl  font-[Inter]   text-[#1F2027]  pb-5 pt-2'>
-                            <span className='font-extrabold text-4xl'>Student discounts available.<br /></span>
+                        <h1 className=' text-lg sm:text-3xl    text-[#1F2027]  pb-5 pt-2'>
+                            <span className='font-extrabold text-lg sm:text-4xl'>Student discounts available.<br /></span>
                             Get ready for some fun in the sun!
 
                         </h1>

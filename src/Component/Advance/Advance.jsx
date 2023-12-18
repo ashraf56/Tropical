@@ -10,7 +10,7 @@ const Advance = () => {
         <div className='w-full lg:w-3/6  xl:max-w-full '>
           <div className='py-10'>
 
-            <div className="card card-side bg-white justify-center mx-auto shadow-lg shadow-slate-500 items-center w-[360px] mb-4  rounded-lg">
+            <div className="card card-side bg-white justify-center mx-auto shadow-lg shadow-slate-500 items-center max-w-md lg:w-[360px] mb-4  rounded-lg">
               <div className="avatar">
                 <div className="w-[80px] h-[80px] rounded-full ">
                   <img src={av} className='max-w-full' alt='avatar' />
@@ -22,7 +22,7 @@ const Advance = () => {
 
               </div>
             </div>
-            <div className="card card-side bg-white justify-center mx-auto shadow-lg shadow-slate-500 items-center w-[360px] mb-4  rounded-lg">
+            <div className="card card-side bg-white justify-center mx-auto shadow-lg shadow-slate-500 items-center max-w-md lg:w-[360px] mb-4  rounded-lg">
               <div className="avatar">
                 <div className="w-[80px] h-[80px] rounded-full ">
                   <img src={av} className='max-w-full' alt='avatar' />
@@ -34,7 +34,7 @@ const Advance = () => {
 
               </div>
             </div>
-            <div className="card card-side bg-white justify-center mx-auto shadow-lg shadow-slate-500 items-center w-[360px] mb-4  rounded-lg">
+            <div className="card card-side bg-white justify-center mx-auto shadow-lg shadow-slate-500 items-center max-w-md lg:w-[360px] mb-4  rounded-lg">
               <div className="avatar">
                 <div className="w-[80px] h-[80px] rounded-full ">
                   <img src={av} className='max-w-full' alt='avatar' />
