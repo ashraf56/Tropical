@@ -67,7 +67,7 @@ const Slider = () => {
         <span><svg xmlns="http://www.w3.org/2000/svg" width="45" height="45" viewBox="0 0 45 45" fill="none">
           <path d="M45 21.0826H5.42659L14.3463 12.1628L12.3418 10.1583L0 22.4999L12.3418 34.8418L14.3463 32.8372L5.42659 23.9175H45V21.0826Z" fill="#262626" />
         </svg></span>
-        <p className='text-[16px] px-4'> <span className='text-[32px]'> 2</span>/4</p>
+        <p className='text-[16px] px-4'> <span className='text-[32px]'> 2</span>/144</p>
         <span>
           <svg xmlns="http://www.w3.org/2000/svg" width="45" height="45" viewBox="0 0 45 45" fill="none">
             <path d="M0 21.0826H39.5734L30.6537 12.1628L32.6582 10.1583L45 22.4999L32.6582 34.8418L30.6537 32.8372L39.5734 23.9175H0V21.0826Z" fill="#F27A44" />
