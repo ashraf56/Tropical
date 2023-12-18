@@ -7,9 +7,9 @@ import sh3 from '../../assets/shape4.svg'
 const Discount = () => {
     return (
         <div className=' container mx-auto mt-8'>
-            <div className='block container ms-5 sm:ms-0 mx-auto lg:flex items-center  text-center md:text-justify'>
+            <div className='block container ms-5 sm:ms-0 mx-auto lg:flex items-center  text-center md:text-start'>
 <div className='w-full lg:w-3/6 '>
-<div className='max-w-full lg:max-w-xl mx-auto relative  '>
+<div className='w-full max-w-full lg:max-w-xl mx-auto relative  ps-5 '>
 <img src={imgs} className='mt-[141px] hidden sm:block' />
 <p className='text-[#1F2027] font-[Inter] text-[20px] font-[600] pt-8'>Get 20% off for student</p>
 <img src={sh2} className='absolute right-0 lg:top-[15%] xl:top-[30%] hidden md:block'  />

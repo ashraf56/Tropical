@@ -6,6 +6,7 @@ import Advance from './Component/Advance/Advance'
 import Slider from './Component/Slider/Slider'
 import Discount from './Component/Discount/Discount'
 import Booknow from './Component/Booknow/Booknow'
+import Testimonials from './Component/Testimonials/Testimonials'
 
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
    <Slider></Slider>
    <Discount></Discount>
    <Booknow></Booknow>
+   <Testimonials></Testimonials>
     </div>
   )
 }
