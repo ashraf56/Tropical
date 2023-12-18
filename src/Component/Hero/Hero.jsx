@@ -12,11 +12,11 @@ const Hero = () => {
             <div className='block lg:flex container mx-auto items-center  text-center md:text-start'>
                 <div className='w-full lg:w-3/6 '>
                     <div className='max-w-full lg:max-w-xl mx-auto relative'>
-                        <img src={imgs} className='mt-[141px]  hidden lg:block' />
+                        <img src={imgs} className='mt-[141px]  hidden lg:block' alt='shape' />
                         <p className='text-[#1F2027] font-[Inter] text-base sm:text-[20px] font-[600] pt-8 text-center md:text-start'>Discover the beauty of the tropics</p>
-                        <img src={sh2} className='absolute right-0 lg:bottom-[55%] xl:bottom-[55%] hidden lg:block' />
-                        <img src={cir} className='absolute right-0 bottom-[10%] hidden lg:block' />
-                        <img src={sh3} className='absolute right-0 bottom-[-7%] left-[50%]  hidden lg:block' />
+                        <img src={sh2} className='absolute right-0 lg:bottom-[55%] xl:bottom-[55%] hidden lg:block' alt='shape' />
+                        <img src={cir} className='absolute right-0 bottom-[10%] hidden lg:block' alt='shape' />
+                        <img src={sh3} className='absolute right-0 bottom-[-7%] left-[50%]  hidden lg:block' alt='shape' />
                         <h1 className=' text-2xl sm:text-7xl md:text-[80px] font-[Poppins]  text-center md:text-start text-[#1F2027] md:leading-[100px] pb-5 md:pb-[50px] pt-8'>
                             <span className='font-extrabold'>Tropical Destinations<br /></span>
                             For Student
@@ -27,9 +27,9 @@ const Hero = () => {
 
                 </div>
                 <div className=' w-full lg:w-3/6 relative'>
-                    <img src={heroimg} className='max-w-sm  sm:max-w-md md:max-w-lg mx-auto object-contain' />
-                    <img src={greenshape} className='absolute left-0 top-10 hidden lg:block' />
-                    <img src={cir2} className='absolute right-16 bottom-[-17%]  hidden lg:block' />
+                    <img src={heroimg} className='max-w-sm  sm:max-w-md md:max-w-lg mx-auto object-contain' alt='heroimg' />
+                    <img src={greenshape} className='absolute left-0 top-10 hidden lg:block' alt='shape'/>
+                    <img src={cir2} className='absolute right-16 bottom-[-17%]  hidden lg:block' alt='shape'/>
                 </div>
             </div>
         </div>

@@ -9,7 +9,7 @@ const Testimonials = () => {
                 <div className="card  ">
                     <div className="avatar justify-center">
                         <div className="w-24 rounded-full mt-16">
-                            <img src={avater} />
+                            <img src={avater} alt='avatar' />
                         </div>
                     </div>
                     <h2 className=" text-center pt-4">Corey Korsgaard</h2>
@@ -23,7 +23,7 @@ const Testimonials = () => {
                 <div className="card  ">
                     <div className="avatar justify-center">
                         <div className="w-24 rounded-full mt-16">
-                            <img src={avater} />
+                            <img src={avater} alt='avatar' />
                         </div>
                     </div>
                     <h2 className=" text-center pt-4">Jakob Aminoff</h2>
@@ -37,7 +37,7 @@ const Testimonials = () => {
                 <div className="card  ">
                     <div className="avatar justify-center">
                         <div className="w-24 rounded-full mt-16">
-                            <img src={avater} />
+                            <img src={avater} alt='avatar' />
                         </div>
                     </div>
                     <h2 className=" text-center pt-4">Carla Press</h2>

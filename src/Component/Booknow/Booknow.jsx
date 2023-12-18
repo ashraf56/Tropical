@@ -25,8 +25,8 @@ const Booknow = () => {
       <div className='block lg:flex  container mx-auto items-center  text-center md:text-start'>
 
         <div className=' w-full lg:w-3/6 relative'>
-          <img src={heroimg} className='w-full max-w-sm  sm:max-w-md md:max-w-lg mx-auto object-contain' />
-          <img src={circle3} className='absolute right-0 top-20 hidden lg:block' />
+          <img src={heroimg} className='w-full max-w-sm  sm:max-w-md md:max-w-lg mx-auto object-contain' alt='heroimg' />
+          <img src={circle3} className='absolute right-0 top-20 hidden lg:block' alt='circle' />
         </div>
         <div className='w-full lg:w-3/6 '>
           <div className='max-w-full lg:max-w-xl mx-auto mt-24'>

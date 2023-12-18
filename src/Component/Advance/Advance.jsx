@@ -13,7 +13,7 @@ const Advance = () => {
             <div className="card card-side bg-white justify-center mx-auto shadow-lg shadow-slate-500 items-center w-[360px] mb-4  rounded-lg">
               <div className="avatar">
                 <div className="w-[80px] h-[80px] rounded-full ">
-                  <img src={av} className='max-w-full' />
+                  <img src={av} className='max-w-full' alt='avatar' />
                 </div>
               </div>
               <div className="card-body">
@@ -25,7 +25,7 @@ const Advance = () => {
             <div className="card card-side bg-white justify-center mx-auto shadow-lg shadow-slate-500 items-center w-[360px] mb-4  rounded-lg">
               <div className="avatar">
                 <div className="w-[80px] h-[80px] rounded-full ">
-                  <img src={av} className='max-w-full' />
+                  <img src={av} className='max-w-full' alt='avatar' />
                 </div>
               </div>
               <div className="card-body">
@@ -37,7 +37,7 @@ const Advance = () => {
             <div className="card card-side bg-white justify-center mx-auto shadow-lg shadow-slate-500 items-center w-[360px] mb-4  rounded-lg">
               <div className="avatar">
                 <div className="w-[80px] h-[80px] rounded-full ">
-                  <img src={av} className='max-w-full' />
+                  <img src={av} className='max-w-full' alt='avatar' />
                 </div>
               </div>
               <div className="card-body">
@@ -52,10 +52,10 @@ const Advance = () => {
         </div>
         <div className='w-full lg:w-3/6 mx-auto relative'>
           <div>
-            <img src={big} className='absolute left-72 top-[-50%]  hidden lg:block' />
+            <img src={big} className='absolute left-72 top-[-50%]  hidden lg:block' alt='shape' />
           </div>
           <div>
-            <img src={imgs} className=' absolute left-[-10%] top-[-20%]  hidden lg:block' />
+            <img src={imgs} className=' absolute left-[-10%] top-[-20%]  hidden lg:block' alt='shape' />
           </div>
           <div className='ps-8 max-w-full'>
             <h1 className='text-[30px] font-[400] pb-3 text-[#000000]'><span className='text-[40px] font-bold'>Tropical Adventure</span><br />

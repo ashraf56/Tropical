@@ -47,14 +47,14 @@ const Slider = () => {
         {
           carddata.map(c => (
             <div className="card w-[360px] h-[496px]  bg-base-100 shadow-xl">
-              <figure><img src={c.image} className='' /></figure>
+              <figure><img src={c.image} alt='img' /></figure>
               <div className="card-body">
                 <h2 className="card-title font-[900] ">{c.Name}</h2>
 
                 <div className="flex justify-between items-center">
                   <p className='text-[14px] text-black'>{c.adress}</p>
                   <button className=" rounded-full p-3">
-                    <img src={c.adress && ic} />
+                    <img src={c.adress && ic} alt='adress' />
                   </button>
                 </div>
               </div>
