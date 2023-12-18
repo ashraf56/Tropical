@@ -7,19 +7,21 @@ import Slider from './Component/Slider/Slider'
 import Discount from './Component/Discount/Discount'
 import Booknow from './Component/Booknow/Booknow'
 import Testimonials from './Component/Testimonials/Testimonials'
+import Footer from './Component/Footer/Footer'
 
 
 function App() {
 
   return (
     <div  >
-   <Navbar></Navbar>
-   <Hero></Hero>
-   <Advance></Advance>
-   <Slider></Slider>
-   <Discount></Discount>
-   <Booknow></Booknow>
-   <Testimonials></Testimonials>
+      <Navbar></Navbar>
+      <Hero></Hero>
+      <Advance></Advance>
+      <Slider></Slider>
+      <Discount></Discount>
+      <Booknow></Booknow>
+      <Testimonials></Testimonials>
+      <Footer></Footer>
     </div>
   )
 }
