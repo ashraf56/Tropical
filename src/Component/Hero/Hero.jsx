@@ -28,8 +28,8 @@ const Hero = () => {
                 </div>
                 <div className=' w-full lg:w-3/6 relative'>
                     <img src={heroimg} className='w-24 md:w-[30%] lg:w-full  md:max-w-lg mx-auto object-contain' alt='heroimg' />
-                    <img src={greenshape} className='absolute left-0 top-10 hidden lg:block' alt='shape'/>
-                    <img src={cir2} className='absolute right-16 bottom-[-17%]  hidden lg:block' alt='shape'/>
+                    <img src={greenshape} className='absolute left-0 top-10 hidden lg:block' alt='shape' />
+                    <img src={cir2} className='absolute right-16 bottom-[-17%]  hidden lg:block' alt='shape' />
                 </div>
             </div>
         </div>
